@@ -1,0 +1,25 @@
+#uses cactus-pangenome command
+
+#!/bin/bash
+#SBATCH --job-name=swallow_calling
+#SBATCH -A fnrdewoody
+#SBATCH -t 10:00:00
+#SBATCH -n 64
+#SBATCH -N 1
+#SBATCH -e %x_%j.err
+#SBATCH -o %x_%j.out
+#SBATCH --mail-user=allen715@purdue.edu
+#SBATCH --mail-type=END,FAIL
+
+module purge
+module load anaconda
+conda activate cactus_env
+source /home/allen715/cactus/cactus-bin-v2.7.0/venv-cactus-v2.7.0/bin/activate
+
+REF=refp
+N=64
+OUT=/scratch/negishi/allen715/pangenome/forNA2/out
+MAIN=/scratch/negishi/allen715/pangenome/forNA2/
+
+#to run everything at once
+cactus-pangenome ./jobstore seqfile.txt --outDir $OUT --outName short-swallow-pg --reference $REF
