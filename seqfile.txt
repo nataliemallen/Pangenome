@@ -1,0 +1,12 @@
+refp /scratch/negishi/allen715/pangenome/forNA2/ref/GCF_015227805.2_bHirRus1.pri.v3_genomic_renamed.fasta
+refa /scratch/negishi/allen715/pangenome/forNA2/ref/GCA_015227815.3_bHirRus1.alt.v3_genomic_renamed.fasta
+SRR22588214p /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588214/primary/SRR22588214_primary_purged.fasta.masked
+SRR22588214a /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588214/alternate/SRR22588214_alternate_purged.fasta.masked
+SRR22588215p /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588215/primary/SRR22588215_primary_purged.fasta.masked
+SRR22588215a /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588215/alternate/SRR22588215_alternate_purged.fasta.masked
+SRR22588216p /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588216/primary/SRR22588216_primary_purged.fasta.masked
+SRR22588216a /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588216/alternate/SRR22588216_alternate_purged.fasta.masked
+SRR22588217p /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588217/primary/SRR22588217_primary_purged.fasta.masked
+SRR22588217a /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588217/alternate/SRR22588217_alternate_purged.fasta.masked
+SRR22588218p /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588218/primary/SRR22588218_primary_purged.fasta.masked
+SRR22588218a /scratch/negishi/allen715/pangenome/forNA2/purged_hifi/SRR22588218/alternate/SRR22588218_alternate_purged.fasta.masked
