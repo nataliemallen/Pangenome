@@ -158,6 +158,16 @@ RefInd=refp # your reference indivial's name from the Minigraph-Cactus seqFile e
 #   ${APP}/vg surject -x ../${PREFIX}_mod_chopped.xg ${i}_org_interleaved_aln.filtered.gam --threads ${N} --prune-low-cplx --interleaved -F ../${RefInd}.${PREFIX}-pg_paths.txt -b -N ${i} -R "ID:1 LB:lib1 SM:${i} PL:illumina PU:unit1" > ${i}.${PREFIX}-pg_surject.bam
 # done
 
+
+# 
+# 21.3 Calling SNPs (and small SVs < 50 bp) using nf-core Sarek pipeline
+### 21.3.1. Indexing bam files
+# for i in `cat ${BASE}/SRR_Acc_List.txt`; do
+#   samtools sort -@ ${N} -o ${i}.${PREFIX}-pg_surject.sorted.bam ${i}.${PREFIX}-pg_surject.bam 
+#   samtools index -@ ${N} -b ${i}.${PREFIX}-pg_surject.sorted.bam   
+# done
+# 
+
 ### 21.4.1. Preprocessing the reference genome and bam files
 module purge
 module load biocontainers
